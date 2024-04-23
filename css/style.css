@@ -2,6 +2,7 @@
     margin: 0;
     padding:0 ;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 
 
@@ -16,16 +17,58 @@ main{
 
 header{
     background-color: #000000;
-    width: 10%;
+    width: 12%;
+    color: #626262;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 1rem;
+    line-height: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+ul>li{
+    list-style-type: none;
 }
 
 .logo{
-    
+    width: 80%;
+    padding-top: 1rem;
+}
+
+.nome-playlist ul li>h1{
+    font-size: 18px;    
+}
+
+.font-white{
+    color: white;
+}
+
+#plus{
+    color: #a3a3a3;
+    font-size: 25px;
+}
+
+.utente ul li:first-child{
+    font-size: 10px;
+}
+
+.utente ul li:last-child{
+    font-size: 15px;
+}
+
+.border-bottom{
+    border-bottom-color:#626262;
+    border-bottom-width: 0.5px;
+    border-bottom-style: inset;
+    width: 90%;
 }
 
 main{
     background-color: #141922;
-    width: 90%;
+    width: 88%;
 }
 
 footer{
