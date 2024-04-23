@@ -71,6 +71,10 @@ main{
     width: 88%;
 }
 
+main>header{
+    height: auto;
+}
+
 .upgrade{
     display: flex;
     justify-content: flex-end;
@@ -94,10 +98,45 @@ main{
     color: #75777c;
     font-weight: bold;
     padding-top: 1rem;
+    font-size: 14px;
 }
 
 .generi ul>li{
     padding-right: 1.5rem;
+}
+
+
+.recently-played>div{
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.recently-played div>img{
+    width: 100%;
+}
+
+.recently-played{
+    display: flex;
+    justify-content: space-around; 
+    font-size: 12px;
+    font-weight: bold;  
+  }
+
+.recently-played div>*{
+    padding-bottom: 0.5rem;
+}
+
+.recently-played div>p{
+    color: #626262;
+}
+
+.contenuto>h1{
+    padding: 15px;
+}
+
+#line-height{
+    line-height: 1.1rem;
 }
 
 footer{
