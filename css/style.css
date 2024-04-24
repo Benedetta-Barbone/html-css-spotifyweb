@@ -137,10 +137,56 @@ main>header{
     color: #626262;
 }
 
+
 .contenuto>h1{
-    padding: 15px;
+    padding-left: 1rem;
+    padding-top: 1.8rem;
 }
 
+.per-te{
+    display: flex;
+    font-size: 12px;
+    width: calc(100%/3);
+}
+
+.per-te div>img{
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.per-te>div{
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.artisti{
+    display: flex;
+    font-size: 12px;
+    width: calc(100%/3);
+}
+
+.artisti div>img{
+    width: 100%;
+    padding-bottom: 1rem;
+    border-radius: 50%;
+}
+
+.artisti>div{
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+#ludovico{
+    width: 93%;
+}
+
+.contenuto>p{
+    color: #626262;
+    font-weight: bold;
+    padding: 0.2rem 1rem 2rem;
+}
 
 #line-height{
     line-height: 1.1rem;
@@ -153,4 +199,92 @@ main>header{
 footer{
     background-color: #282828;
     height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section ul>li{
+    list-style-type: none;
+}
+
+footer section> ul{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+footer>section{
+    width: calc(100%/3);
+}
+
+
+.play div> ul{
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.brano {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.brano ul li>img{
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.brano > ul:nth-child(1) > li:nth-child(1) {
+    width: 15%;
+}
+
+
+.brano > ul:nth-child(1) > li:nth-child(3) {
+    padding: 0 1rem 0 3rem;
+}
+
+.font-gray{
+    color: #626262;
+}
+
+.play {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+
+.play div ul>li{
+    padding: 0 1rem;
+    font-size: 20px;
+}
+
+.minuti {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .linea-minuti{
+    width: 500px;
+    background-color: #5a5a5a;
+  }
+  
+.minuti>span{
+    padding: 0 1rem;
+}
+
+.linea-minuti>.riprodotti{
+    width: 120px;
+    background-color: lightgrey;
+
+}
+
+.linea-minuti, .riprodotti{
+    height: 5px;
+    border-radius: 20px;
 }
