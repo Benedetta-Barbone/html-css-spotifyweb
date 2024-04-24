@@ -8,7 +8,7 @@
 
 header,
 main{
-    height: calc(100vh - 80px);
+    height: calc(100vh - 70px);
     overflow-y: auto;
 }
 
@@ -198,7 +198,7 @@ main>header{
 
 footer{
     background-color: #282828;
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
 }
@@ -281,10 +281,37 @@ footer>section{
 .linea-minuti>.riprodotti{
     width: 120px;
     background-color: lightgrey;
-
 }
 
-.linea-minuti, .riprodotti{
+.linea-minuti, .riprodotti, .linea-volume, .audio{
     height: 5px;
     border-radius: 20px;
+}
+
+.linea-volume{
+    width: 135px;
+    background-color: #5a5a5a;
+    margin-right: 0.7rem;
+}
+
+.audio{
+    width: 50px;
+    background-color: lightgrey;
+}
+
+.volume div> ul{
+    display: flex;
+}
+
+.volume div ul>li{
+    padding: 0.5rem 0.7rem;
+    font-size: 12px;
+    color: white;
+}
+
+.volume > div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
 }
